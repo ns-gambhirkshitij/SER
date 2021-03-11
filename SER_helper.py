@@ -5,6 +5,7 @@ from datetime import datetime as dt
 from datetime import timedelta
 import os
 import subprocess
+import sys
 subprocess.check_call([sys.executable, "-m", "pip", "install", "psycopg2-binary"])
 import psycopg2 as ps
 import time

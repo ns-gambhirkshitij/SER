@@ -4,7 +4,7 @@ import numpy as np
 from datetime import datetime as dt
 from datetime import timedelta
 import os
-import psycopg2 as ps
+import psycopg as ps
 import time
 import requests
 import streamlit as st
